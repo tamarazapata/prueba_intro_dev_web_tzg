@@ -1,0 +1,25 @@
+.hero-section {
+  width: 100%;
+  height: 900px;
+  background-image: url(../img/fondo12.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+}
+.datos {
+  width: 100%;
+  height: 600px;
+  background-image: url(../img/torres.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+}
+.box-icons {
+  width: 33%;
+  height: 300px;
+}
+.box-icons > i {
+  display: block;
+  padding: 25px;
+  text-align: center;
+}
