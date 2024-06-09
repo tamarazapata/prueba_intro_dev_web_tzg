@@ -3,11 +3,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 1;
-  padding: 2rem;
   background-color: #ffffff; /* Color de fondo ligero para destacar la sección */
 }
 .summary-section img{
-  width: 80%;
+  width: 100%;
   border-radius: 50%;
 }
 .header h2{
@@ -23,23 +22,17 @@
   width: 100%;
   max-height: 20rem;
 }
+.image-size-custom{
+    height: 80%; 
+    width: 12rem;
+    object-fit: cover; 
+}
+
 .card {
   margin: 0 0.5em;
   box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
   border: none;
   border-radius: 1%;
-}
-.carousel-inner {
-  padding: 1em;
-}
-.carousel-control-prev, .carousel-control-next {
-  background-color: #1b1a1a;
-  color:black;
-  width: 5vh;
-  height: 5vh;
-  border-radius: 50%;
-  top: 50%;
-  transform: translateY(-50%);
 }
 
 .datos {
@@ -60,3 +53,11 @@
   padding: 25px;
   text-align: center;
 }
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #141414;
+}
+
