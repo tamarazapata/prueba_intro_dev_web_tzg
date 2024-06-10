@@ -6,7 +6,7 @@
   background-color: #ffffff; /* Color de fondo ligero para destacar la sección */
 }
 .summary-section img{
-  width: 100%;
+  width: 80%;
   border-radius: 50%;
 }
 .header h2{
@@ -20,11 +20,12 @@
 }
 .card img {
   width: 100%;
-  max-height: 20rem;
+  object-fit: cover;
+  object-position: top;
 }
 .image-size-custom{
-    height: 80%; 
-    width: 12rem;
+    height: 20rem; 
+    width: 20rem;
     object-fit: cover; 
 }
 
@@ -60,4 +61,5 @@
   font-weight: 700;
   color: #141414;
 }
+
 
